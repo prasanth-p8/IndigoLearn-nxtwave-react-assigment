@@ -2,28 +2,30 @@ import React from 'react'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaUserCircle } from "react-icons/fa";
 import {HeaderMainContainer,LogoContainer,LogoTitle,
-    CenterHeadingContainer, CenterHeading,UserLogContainer,UserLogButton
+    CenterHeadingContainer, CenterHeading,UserLogContainer,UserLogButton, Link,LogoLink
   } from './styledComponents'
 
 function Header() {
   return (
     <HeaderMainContainer>
+        <LogoLink  smooth to="#become-acca" >
         <LogoContainer>
-        <GiHamburgerMenu size='20'/>
+        <GiHamburgerMenu size='25'/>
             <LogoTitle>IndigoLearn</LogoTitle>
         </LogoContainer>
+        </LogoLink>
         <CenterHeadingContainer>
         <CenterHeading>
-                Become ACCA
+                <Link smooth to="#become-acca" activeClassName="selected">Become ACCA</Link>
         </CenterHeading>
         <CenterHeading>
-                Why Choose Us
+                <Link smooth to="#why-choose-us" activeClassName="selected">Why Choose Us</Link>                
         </CenterHeading>
         <CenterHeading>
-                Learning in ACCA
+                <Link smooth to="#learning-acca" activeClassName="selected">Learning in ACCA</Link>              
         </CenterHeading>
         <CenterHeading>
-                Placement Assistance
+                <Link smooth to="#placements" activeClassName="selected">Placement Assistance</Link>
         </CenterHeading>
         </CenterHeadingContainer>
         <UserLogContainer>

@@ -1,15 +1,18 @@
 import styled from "styled-components";
 
-export const LearningACCAContainer = styled.div`
+
+export const LearningACCAContainer = styled.section`
 display:flex;
 flex-direction:column;
 align-items:center;
+margin-top:100px;
 `
 export const LearningACCAHeadingContainer = styled.div`
 `
 export const LearningACCAHeading = styled.h1`
 margin-bottom:0;
 font-family: cursive;
+font-size:30px;
 `
 export const LearningACCALine = styled.hr`
 border:2px solid #2b0173;

@@ -5,7 +5,7 @@ PlacementFeaturesContent} from './styledComponents'
 
 
 const Placements = () =>(
-    <PlacementContainer>
+    <PlacementContainer id="placements" >
       <PlacementHeadingContainer> 
       <PlacementHeading>100% Placement Assistance</PlacementHeading>
       <PlacementContainerLine />

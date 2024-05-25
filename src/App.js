@@ -4,19 +4,20 @@ import LearningACCA from './components/LearningACCA'
 import Placements from './components/Placements'
 import Footer from './components/Footer'
 import WhyChooseUs from './components/WhyChooseUs'
-
+import { BrowserRouter } from 'react-router-dom'
 import './App.css';
+
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <Header />
       <BecomeACCA />
       <WhyChooseUs />
       <LearningACCA />
       <Placements />
       <Footer />
-    </div>
+    </BrowserRouter>
   );
 }
 

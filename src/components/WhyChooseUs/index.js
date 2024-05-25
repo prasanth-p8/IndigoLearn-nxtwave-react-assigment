@@ -11,7 +11,7 @@ import {WhyChooseUsContainer,WhyChooseUsHeadingContainer
 
 function WhyChooseUs() {
   return (
-    <WhyChooseUsContainer>
+    <WhyChooseUsContainer id="why-choose-us" >
       <WhyChooseUsHeadingContainer> 
       <WhyChooseUsHeading>Why Choose Us?</WhyChooseUsHeading>
       <WhyChooseUsLine />

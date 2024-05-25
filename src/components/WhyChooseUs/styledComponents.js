@@ -4,10 +4,12 @@ export const WhyChooseUsContainer = styled.div`
 display:flex;
 flex-direction:column;
 align-items:center;
+margin-top:100px;
 `
 
 
-export const WhyChooseUsHeadingContainer = styled.div``
+export const WhyChooseUsHeadingContainer = styled.div`
+`
 
 export const WhyChooseUsHeading = styled.h1`
 margin-bottom:0;

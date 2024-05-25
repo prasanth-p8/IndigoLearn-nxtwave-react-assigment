@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
-export const PlacementContainer = styled.div``
+export const PlacementContainer = styled.div`
+margin-top:100px;
+`
 
 
 export const PlacementHeadingContainer = styled.div``
