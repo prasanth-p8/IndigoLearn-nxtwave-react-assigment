@@ -5,6 +5,7 @@ margin-top:100px;
 display:flex;
 margin-left:30px;
 margin-bottom:100px;
+justify-content:space-around:
 `
 
 export const KickStartContainer= styled.div``
@@ -146,4 +147,7 @@ font-weight:600;
 font-size:20px;
 `
 
-export const Icons = styled.li``
+export const Icons = styled.li`
+cursor:pointer;
+outline:none;
+`
